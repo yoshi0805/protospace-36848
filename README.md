@@ -10,6 +10,7 @@ usersテーブル
 |position           |text   | null:false               |
 
 
+
 has_many :prototypes
 has_many :comments
 
