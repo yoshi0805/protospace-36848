@@ -3,7 +3,6 @@ class CreatePrototypes < ActiveRecord::Migration[6.0]
     create_table :prototypes do |t|
 
       t.timestamps 
-      t.
       t.string :title,    null: false
       t.text :catch_copy, null: false
       t.text :concept,    null: false
